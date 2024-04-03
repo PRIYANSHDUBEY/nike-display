@@ -1,0 +1,74 @@
+.herosection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logov{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.contenthero{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contenthero a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.herosection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.initial{
+    font-size: 1.1rem;
+    color: black;
+}
+.heroh1{
+   font-size: 2.8rem;
+   font-weight: 700;
+}
+
+.btnss{
+    display: flex;
+    gap: .5rem;
+}
+
+.darkbtn{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 30% ;
+}
+
+
+
+@media screen and (max-width: 360px){
+    .herosection {
+        font-size: 10px;
+    }
+   .logov{
+    display: none;
+   }
+   .banner{
+    width: 3rem;
+    height: 3rem;
+    
+
+   }
+   .banner-main{
+    width: 3rem;
+    height: 3rem;
+    overflow: scroll;
+   }
+
+}

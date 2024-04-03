@@ -1,0 +1,87 @@
+.footersection{
+    display: flex;
+    background: rgb(14, 14, 14);
+    padding: 3rem;
+    flex-direction: column;
+    gap: 4.5rem;
+}
+.standingfoot{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.anchors{
+    display: flex;
+    gap: 5.4rem;
+}
+.anchors h4{
+    margin-bottom: 1rem;
+}
+.anchorssection{
+    display: flex;
+    flex-direction: column;
+}
+
+.headings{
+    cursor: pointer;
+    color: rgb(203, 199, 199);
+    text-decoration: none;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.ss{
+   cursor: pointer;
+   color: white;
+
+}
+.atags{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: .4rem;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+
+}
+.socialmedia{
+    display: flex;
+    gap: 1rem;
+}
+
+.socials{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    opacity: .6;
+}
+.socials:hover{
+    opacity: 1;
+}
+
+.basement{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parts{
+    display: flex;
+    gap: 1rem;
+
+}

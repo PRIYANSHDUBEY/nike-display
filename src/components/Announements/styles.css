@@ -1,0 +1,30 @@
+.announcement-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 240, 240);
+    height: 5rem !important; 
+}
+
+.announcement-header{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.announcement-link{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+    /* CSS rules to apply when the screen width is 360 pixels or less */
+    /* For example: */
+      
+  };

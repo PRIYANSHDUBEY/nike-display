@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-main {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 1.1rem;
+}
+
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 241, 241);
+    align-items: center;
+    height: 3rem;
+}
+
+.center-1{
+    padding-inline: 4rem;
+}
+.center-2{
+    padding-inline: 2.1rem;
+}
+
+.logo{
+    width: 1.8rem;
+    height: 1.8rem;
+    background:transparent;
+}
+.logo:hover{
+    opacity: .6;
+}
+
+.nav-item {
+    padding-right: 1rem;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #000;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  
+  .nav-item:not(:last-child) {
+    border-right: 2px solid #000; /* Add a border to create a horizontal line */
+    margin-right: 1rem; /* Adjust spacing between items as needed */
+  }
+
+  .navbar-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+  }
+
+  .content2{
+    display: flex;
+  }
+  .logo2{
+    width: 4rem;
+    height: 4rem;
+  }
+  .logo2:hover{
+    opacity: .6;
+  }
+
+  .nav2-items{
+    display:flex;
+    text-align: right;
+    padding-inline: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #000;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding-bottom: .8rem;
+    
+  }
+  .nav2-items:hover{
+    border-bottom: 2px solid black;
+  }
+
+
+  .searchbar{
+    display: flex;
+    width: 24%;
+    justify-content: space-around;
+    
+  }
+  .searchinput{
+    width:max-content;
+    display: flex;
+    background-color: rgb(244, 240, 240);
+    border-radius: 20%;
+  }
+
+  .searchinput button{
+    padding: 0.4rem;
+    background-color: rgb(244, 240, 240);
+    border-radius: 30%;
+    border: none;
+    align-items: center;
+  }
+  
+  .searchinput button:hover{
+    background-color: rgb(213, 211, 211);
+  }
+
+  input{
+    padding: .4rem;
+    background-color: transparent;
+    border: none;
+
+  }
+  .icons{
+    width: 2rem;
+    height: 2rem;
+    padding: .4rem;
+  }
+
+  .icons:hover{
+    background-color: rgb(209, 205, 205);
+    border-radius: 50%;
+    padding: .4rem;
+  }
+
+
+
+  @media screen and (max-width: 360px) {
+    /* CSS rules to apply when the screen width is 360 pixels or less */
+    /* For example: */
+    .navbar-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content1{
+        display: none;
+    }
+    .logo{
+        width: 3rem;
+        height: 3rem;
+    }
+    .logo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        width: 100%;
+    }
+    .navbar-2{
+        display: flex  !important;
+        margin-bottom: 3rem !important;
+        flex-direction: column;
+    }
+    .content2{
+      display: none;
+    }
+    .searchbar{
+       display: none;
+    }
+
+  }
